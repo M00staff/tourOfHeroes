@@ -19,6 +19,7 @@ import { Hero } from './hero';
   `
 })
 export class HeroDetailComponent {
+  // binding to other component
   @Input()
   hero: Hero
 }
